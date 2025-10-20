@@ -1,0 +1,60 @@
+<!--
+  @file index.html
+  @brief Web interface for ESP32 Wi-Fi configuration.
+
+  This page provides a minimal, mobile-friendly user interface
+  that allows users to configure Wi-Fi credentials for the ESP32.
+  It is designed to be served by the device’s internal web server
+  (in AP mode) and styled using "style.css".
+
+  Features:
+   - Responsive layout for desktop and mobile.
+   - Simple form for SSID and password input.
+   - Status message area for connection feedback.
+   - Connected to backend handler via POST to /set.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and responsive viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Wi-Fi Setup</title>
+
+    <!-- External stylesheet for UI design -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Main centered container -->
+<div class="container">
+
+    <!-- Page title -->
+    <h1>ESP32 Wi-Fi Setup</h1>
+
+    <!-- Subtitle description -->
+    <p class="subtitle">Connect your device to Wi-Fi</p>
+
+    <!-- Wi-Fi credentials form -->
+    <form id="wifi-form" action="/set" method="post">
+        <!-- SSID input -->
+        <label for="ssid">Network Name (SSID)</label>
+        <input type="text" id="ssid" name="ssid" required>
+
+        <!-- Password input -->
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" required>
+
+        <!-- Submit button -->
+        <button type="submit" id="connect-btn">Connect</button>
+    </form>
+
+    <!-- Connection status message (updated dynamically) -->
+    <p id="status-msg"></p>
+</div>
+
+<!-- JavaScript for dynamic behavior and form handling -->
+<script src="script.js"></script>
+</body>
+</html>

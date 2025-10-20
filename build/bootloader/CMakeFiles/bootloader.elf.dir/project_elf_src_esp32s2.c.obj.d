@@ -1,0 +1,2 @@
+CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s2.c.obj: \
+ /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/build/bootloader/project_elf_src_esp32s2.c

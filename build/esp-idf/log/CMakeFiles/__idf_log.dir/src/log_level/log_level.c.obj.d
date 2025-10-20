@@ -1,0 +1,34 @@
+esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/log_level.c.obj: \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/log/src/log_level/log_level.c \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stdbool.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stddef.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/log/include/esp_private/log_level.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/log/include/esp_private/../esp_log_level.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stdint.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/build/config/sdkconfig.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/machine/_types.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/newlib/platform_include/sys/lock.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_common/include/esp_attr.h

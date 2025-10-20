@@ -1,0 +1,29 @@
+esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj: \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/bootloader_support/src/bootloader_console_loader.c \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stdint.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stddef.h \
+ /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/build/bootloader/config/sdkconfig.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/bootloader_support/private_include/bootloader_console.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_rom/include/esp_rom_serial_output.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stdbool.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stdarg.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/soc/esp32s2/include/soc/reset_reasons.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/soc/esp32s2/include/soc/soc_caps.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_rom/esp32s2/include/esp32s2/rom/usb/chip_usb_dw_wrapper.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_rom/esp32s2/include/esp32s2/rom/usb/usb_dc.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_rom/esp32s2/include/esp32s2/rom/usb/cdc_acm.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_rom/esp32s2/include/esp32s2/rom/usb/usb_persist.h

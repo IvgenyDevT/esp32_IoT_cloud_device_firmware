@@ -1,0 +1,24 @@
+esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj: \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/perfmon/xtensa_perfmon_masks.c \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/perfmon/include/xtensa_perfmon_masks.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stdint.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/include/stddef.h \
+ /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/xtensa/include/xtensa/xt_perf_consts.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/xtensa/esp32s2/include/xtensa/config/core.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/xtensa/esp32s2/include/xtensa/config/core-isa.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/xtensa/esp32s2/include/xtensa/config/core-matmap.h \
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/xtensa/esp32s2/include/xtensa/config/tie.h

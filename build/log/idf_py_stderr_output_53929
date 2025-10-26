@@ -1,8 +1,0 @@
-Command: make -j 16 all
-/Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/main/interrupts.c:98:1: warning: ignoring attribute 'section (".iram1.1")' because it conflicts with previous 'section (".iram1.0")' [-Wattributes]
-   98 | {
-      | ^
-In file included from /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/main/interrupts.c:41:
-/Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/main/interrupts.h:62:16: note: previous declaration here
-   62 | void IRAM_ATTR gpio_interrupt_handler(void *arg);
-      |                ^~~~~~~~~~~~~~~~~~~~~~

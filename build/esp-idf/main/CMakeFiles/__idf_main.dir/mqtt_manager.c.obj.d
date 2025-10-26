@@ -121,4 +121,5 @@ esp-idf/main/CMakeFiles/__idf_main.dir/mqtt_manager.c.obj: \
  /Users/jenyatokarzhevsky/esp/esp-idf/components/log/include/esp_log_args.h \
  /Users/jenyatokarzhevsky/esp/esp-idf/components/log/include/esp_log_attr.h \
  /Users/jenyatokarzhevsky/esp/esp-idf/components/log/include/esp_private/log_attr.h \
- /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_common/include/esp_check.h
+ /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_common/include/esp_check.h \
+ /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/main/util.h

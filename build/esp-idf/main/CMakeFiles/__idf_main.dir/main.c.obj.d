@@ -38,6 +38,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
  /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
  /Users/jenyatokarzhevsky/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
+ /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/main/util.h \
  /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/main/mqtt_manager.h \
  /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_common/include/esp_err.h \
  /Users/jenyatokarzhevsky/esp/esp-idf/components/esp_common/include/esp_compiler.h \

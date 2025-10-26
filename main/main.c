@@ -51,6 +51,8 @@
 #include "hardware_layer.h"
 #include <interrupts.h>
 #include <main.h>
+#include <util.h>
+
 #include "mqtt_manager.h"
 #include "http_server.h"
 #include "wifi_manager.h"
@@ -255,7 +257,7 @@ void app_main(void)
                     init_success = false;
                     goto initialize_failure;
                 }
-                LCD_show_lines(0, "MQTT connected!", LCD_context, true);
+
 
             }
             else {
@@ -291,8 +293,9 @@ initialize_failure:
     }
     else {
         ESP_LOGI(TAG, "Entering main loop...");
+        wait_ms(3000);
+        LCD_show_lines(0, "Online", LCD_context, true);
     }
-
 
 
     /* === Main loop === */

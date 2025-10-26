@@ -54,6 +54,8 @@
 #include "esp_log.h"
 #include "esp_check.h"
 #include <string.h>
+#include <util.h>
+
 #include "mqtt_client.h"
 
 
@@ -363,7 +365,7 @@ static esp_err_t mqm_event_core(mqm_t* mqm, esp_mqtt_event_handle_t ev)
     case MQTT_EVENT_CONNECTED:
         xEventGroupSetBits(mqm->eg, MQM_BIT_CONNECTED);
         mqm->connected = true;
-        mqm_status(mqm, "MQTT CONNECTED", MQM_CONNECTED, true);
+        mqm_status(mqm, "MQTT connected", MQM_CONNECTED, true);
 
         if (mqm_subscribe_all(mqm) != ESP_OK)
             mqm_status(mqm, "Subscription failed", MQM_ERROR, true);

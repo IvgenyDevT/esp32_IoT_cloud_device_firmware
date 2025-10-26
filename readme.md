@@ -37,9 +37,14 @@ This firmware turns a raw ESP32-S2 chip into a **complete cloud-controlled produ
 | UART header | Flashing + debugging | USB-UART programmer |
 | Power input | **5V (battery supported)** | Onboard regulator → 3.3V |
 
-**📸 Example - OTA update installed successfully**
+### **board schematic -**
+
+<img src="readme_images/board_schem.png" alt="board_schem" width="350"/>
 <br><br>
-<img src="readme_images/board_schem.png" alt="ota done" width="350"/>
+
+### **board picture -**
+
+<img src="readme_images/prog_interface.png" alt="board-offline" width="350"/>
 <br><br>
 
 ---

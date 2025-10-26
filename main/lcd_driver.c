@@ -120,6 +120,7 @@ static void write_8_bits_LCD(uint8_t value, register_select mode, lcd_context_t 
 {
     gpio_set_level(LCD.rs, mode);
     write_4_bits_LCD(MSB_HALF_BYTE(value), LCD);
+    wait_ms(5);
     write_4_bits_LCD(LSB_HALF_BYTE(value), LCD);
 }
 
@@ -315,8 +316,9 @@ void LCD_show_lines(unsigned short line_offset, const char *string, lcd_context_
             }
             col = 0;
         }
-
+        //wait_ms(1000);
         LCD_print(word, LCD);
+        wait_ms(10);
         LCD_print(" ", LCD);
         col += strlen(word) + 1;
 

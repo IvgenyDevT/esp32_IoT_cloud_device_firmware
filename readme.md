@@ -22,10 +22,6 @@ The device features:
 
 This firmware turns a raw ESP32-S2 chip into a **complete cloud-controlled product**.
 
-**📸 Example - board schematic**
-<br><br>
-<img src="schematics/WIFI-DevBoaard.pdf" alt="ota done" width="350"/>
-<br><br>
 
 ---
 
@@ -226,7 +222,7 @@ Ctrl + ] to exit monitor.
 
 ⸻
 
-👤 Author
+## 👤 Author
 
 Ivgeny Tokarzhevsky
 Embedded Software · IoT Developer · Hardware Engineer

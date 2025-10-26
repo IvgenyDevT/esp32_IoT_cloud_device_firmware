@@ -2332,7 +2332,7 @@
 				{
 					"directoryIndex" : 6,
 					"id" : "__idf_esp_app_format::@08c2bdce7fd85cdbea06",
-					"jsonFile" : "target-__idf_esp_app_format-Debug-231b3ea323e324b31528.json",
+					"jsonFile" : "target-__idf_esp_app_format-Debug-186d2ae114a023676aa8.json",
 					"name" : "__idf_esp_app_format",
 					"projectIndex" : 1
 				},
@@ -2549,7 +2549,7 @@
 				{
 					"directoryIndex" : 105,
 					"id" : "__idf_esp_local_ctrl::@d6aad58d2946e56208ef",
-					"jsonFile" : "target-__idf_esp_local_ctrl-Debug-29a3ce653b584efc80c2.json",
+					"jsonFile" : "target-__idf_esp_local_ctrl-Debug-102ee4466f0fe5dc9051.json",
 					"name" : "__idf_esp_local_ctrl",
 					"projectIndex" : 1
 				},
@@ -2647,7 +2647,7 @@
 				{
 					"directoryIndex" : 108,
 					"id" : "__idf_fatfs::@75ac1d9b25dacc8cc9e7",
-					"jsonFile" : "target-__idf_fatfs-Debug-a6452f9563cb1d592ef1.json",
+					"jsonFile" : "target-__idf_fatfs-Debug-380db85cbef5dc0deae4.json",
 					"name" : "__idf_fatfs",
 					"projectIndex" : 1
 				},
@@ -2703,7 +2703,7 @@
 				{
 					"directoryIndex" : 122,
 					"id" : "__idf_main::@7368607ed66887415643",
-					"jsonFile" : "target-__idf_main-Debug-c7cc13f963128f529b9a.json",
+					"jsonFile" : "target-__idf_main-Debug-861db0ce57318f594c51.json",
 					"name" : "__idf_main",
 					"projectIndex" : 1
 				},
@@ -2759,7 +2759,7 @@
 				{
 					"directoryIndex" : 104,
 					"id" : "__idf_protocomm::@d76d01c8dec06205e1fc",
-					"jsonFile" : "target-__idf_protocomm-Debug-f2918b2aed5d3db1e3e3.json",
+					"jsonFile" : "target-__idf_protocomm-Debug-99dea97d053e999f5b53.json",
 					"name" : "__idf_protocomm",
 					"projectIndex" : 1
 				},
@@ -2850,7 +2850,7 @@
 				{
 					"directoryIndex" : 121,
 					"id" : "__idf_wifi_provisioning::@9d7e7ffe1b15746c1098",
-					"jsonFile" : "target-__idf_wifi_provisioning-Debug-ca165d5be78d21658cc9.json",
+					"jsonFile" : "target-__idf_wifi_provisioning-Debug-97aa710415719584b815.json",
 					"name" : "__idf_wifi_provisioning",
 					"projectIndex" : 1
 				},
@@ -2871,7 +2871,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "__ldgen_output_sections.ld::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-__ldgen_output_sections.ld-Debug-620fbc4ef82415e7d36e.json",
+					"jsonFile" : "target-__ldgen_output_sections.ld-Debug-a73ac56b6970989a882c.json",
 					"name" : "__ldgen_output_sections.ld",
 					"projectIndex" : 0
 				},
@@ -3067,7 +3067,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "esp32_MQTT_project.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-esp32_MQTT_project.elf-Debug-f58790a788acf0a8a333.json",
+					"jsonFile" : "target-esp32_MQTT_project.elf-Debug-04f56602d95eb1fee227.json",
 					"name" : "esp32_MQTT_project.elf",
 					"projectIndex" : 0
 				},

@@ -1944,38 +1944,6 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 185,
-			"id" : "_project_elf_src::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 187,
-			"id" : "__ldgen_output_sections.ld::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 10,
-			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
-		},
-		{
-			"backtrace" : 39,
-			"id" : "__idf_app_trace::@dd7eb3aa23293586d3b8"
-		},
-		{
-			"backtrace" : 52,
-			"id" : "__idf_unity::@fec746937506b5690992"
-		},
-		{
-			"backtrace" : 53,
-			"id" : "__idf_cmock::@38f9eb59693b7394f54c"
-		},
-		{
-			"backtrace" : 54,
-			"id" : "__idf_console::@4311ed8d271cc0ee1422"
-		},
-		{
-			"backtrace" : 71,
-			"id" : "__idf_esp_driver_cam::@d005630ea6316acc7c7d"
-		},
-		{
 			"backtrace" : 72,
 			"id" : "__idf_esp_driver_touch_sens::@834ec88eeea238586f95"
 		},
@@ -2058,6 +2026,38 @@
 		{
 			"backtrace" : 96,
 			"id" : "__idf_main::@7368607ed66887415643"
+		},
+		{
+			"backtrace" : 185,
+			"id" : "_project_elf_src::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 187,
+			"id" : "__ldgen_output_sections.ld::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "__idf_app_trace::@dd7eb3aa23293586d3b8"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "__idf_unity::@fec746937506b5690992"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "__idf_cmock::@38f9eb59693b7394f54c"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "__idf_console::@4311ed8d271cc0ee1422"
+		},
+		{
+			"backtrace" : 71,
+			"id" : "__idf_esp_driver_cam::@d005630ea6316acc7c7d"
 		}
 	],
 	"id" : "esp32_MQTT_project.elf::@6890427a1f51a3e7e1df",

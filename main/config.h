@@ -37,7 +37,7 @@
  * This string is published through MQTT and displayed on the LCD
  * during device connection testing.
  */
-#define PROG_VERSION "6.0"
+#define PROG_VERSION "1.4.2"
 
 /**
  * @brief Device identifier used in logs, MQTT messages, and UI.

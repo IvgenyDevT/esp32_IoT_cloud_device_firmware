@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "esp32_MQTT_project",
-    "project_version":    "1c86eb9-dirty",
+    "project_version":    "6cb4493-dirty",
     "project_path":       "/Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project",
     "idf_path":           "/Users/jenyatokarzhevsky/esp/esp-idf",
     "build_dir":          "/Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/cmake-build-debug",

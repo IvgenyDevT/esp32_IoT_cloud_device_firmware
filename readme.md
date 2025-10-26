@@ -43,9 +43,9 @@ This firmware turns a raw ESP32-S2 chip into a **complete cloud-controlled produ
 
 **📸 Example - OTA update installed successfully**
 <br><br>
-<img src="images/OTA_update_done.PNG" alt="ota done" width="350"/>
+<img src="readme_images/board_schem.png" alt="ota done" width="350"/>
 <br><br>
-[WIFI-DevBoaard.pdf](../schematics/WIFI-DevBoaard.pdf)
+
 ---
 
 ## 🚨 LED Runtime Indicators

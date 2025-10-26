@@ -171,6 +171,11 @@ esp_err_t init_web_app(wfm_t* wifi_manager,
 
 
 
+
+
+void app_error_update(bool error, char* description);
+
+
 #ifdef __cplusplus
 }
 #endif

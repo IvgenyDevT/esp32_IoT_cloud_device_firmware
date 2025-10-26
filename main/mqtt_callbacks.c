@@ -77,7 +77,7 @@ void on_mqtt_status(const char *status, mqm_status_t client_status)
         return;
     }
 
-    if (prev_status != client_status)
+    if (prev_status == client_status)
         return;
 
     LCD_show_lines(0, status, LCD, true);

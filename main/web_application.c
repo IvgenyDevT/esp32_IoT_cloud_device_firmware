@@ -75,6 +75,8 @@ static const char* TAG = "Web_App";
 /** @brief True if the web application has been initialized. */
 static bool app_initialized = false;
 
+static bool app_error = false;
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -138,6 +140,14 @@ static const leds_cmd_t s_leds_table[] = {
  * @param text String to display on the LCD.
  */
 void LCD_display_text(const char* text) {
+
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+    /*clear error*/
+    app_error_update(false, "");
+
     if (!text) text = "";
     LCD_show_lines(0, text, LCD, true);
 }
@@ -150,6 +160,14 @@ void LCD_display_text(const char* text) {
  * @param command Command string (e.g. "red led on").
  */
 void leds_toggle_handler(const char* command) {
+
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+    /*clear error*/
+    app_error_update(false, "");
+
     if (!command) return;
 
     for (size_t i = 0; i < sizeof(s_leds_table) / sizeof(s_leds_table[0]); ++i) {
@@ -169,6 +187,14 @@ void leds_toggle_handler(const char* command) {
  * Publishes results to `TOPIC_OUT_SCAN_WIFI_RESULT`.
  */
 void scan_wifi_networks(const char* /*payload*/) {
+
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+    /*clear error*/
+    app_error_update(false, "");
+
     if (wfm_scan_sync(wfm) != ESP_OK) {
         ESP_LOGE(TAG, "Wi-Fi scan failed");
         publish_q1(TOPIC_OUT_SCAN_WIFI_RESULT, "[]");
@@ -217,6 +243,14 @@ typedef struct {
  */
 static void change_wifi_network_task(void* param)
 {
+
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+    /*clear error*/
+    app_error_update(false, "");
+
     change_wifi_arg_t* change_wifi_arg = (change_wifi_arg_t*)param;
     char* payload = change_wifi_arg ? change_wifi_arg->heap_str : NULL;
 
@@ -273,7 +307,6 @@ static void change_wifi_network_task(void* param)
 
             if (mqm_is_connected(mqm)) {
                 ESP_LOGW(TAG, "MQTT reconnected, new wifi connection fail");
-                led_on(YELLOW_LED, true);
             } else {
                 ESP_LOGW(TAG, "Wi-Fi reverted, MQTT not reconnected");
             }
@@ -315,6 +348,14 @@ cleanup:
  * Spawns `change_wifi_network_task()` in a new FreeRTOS task.
  */
 void change_wifi_network_handler(const char* payload) {
+
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+    /*clear error*/
+    app_error_update(false, "");
+
     if (!payload) {
         ESP_LOGE(TAG, "change_wifi_network_handler: NULL payload");
         return;
@@ -342,6 +383,14 @@ void change_wifi_network_handler(const char* payload) {
  * Publishes device name, firmware, SSID, IP, MAC, RSSI, and saved networks.
  */
 void device_connection_test(const char* /*payload*/) {
+
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+    /*clear error*/
+    app_error_update(false, "");
+
     char dev_name[64] = "Device Name: " DEV_NAME;
     char prog_ver[64] = "Firmware: "    PROG_VERSION;
 
@@ -392,6 +441,13 @@ static void perform_ota(const char *ota_url) {
         return;
     }
 
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+    /*clear error*/
+    app_error_update(false, "");
+
     esp_http_client_config_t http_cfg = {
         .url = ota_url,
         .crt_bundle_attach = esp_crt_bundle_attach,
@@ -402,15 +458,25 @@ static void perform_ota(const char *ota_url) {
     };
 
     esp_https_ota_handle_t h = NULL;
+    /*try twice, because using github pages, sometimes  file url is unavailable*/
     if (esp_https_ota_begin(&ota_cfg, &h) != ESP_OK) {
-        ESP_LOGE(TAG, "OTA begin failed");
-        publish_q1(TOPIC_OUT_OTA_UPDATE, "Begin failed");
-        return;
+        wait_ms(2000);
+        /*try second time if first failed (race condition)  */
+        if (esp_https_ota_begin(&ota_cfg, &h) != ESP_OK){
+            ESP_LOGE(TAG, "OTA begin failed");
+            publish_q1(TOPIC_OUT_OTA_UPDATE, "Begin failed");
+            LCD_show_lines(0,"OTA update failed",LCD,true);
+            app_error_update(true, "OTA update failed");
+
+
+            return;
+        }
     }
 
     publish_q1(TOPIC_OUT_OTA_UPDATE, "Download started");
 //todo clear before progress, check why yellow only on connected mqtt, whuke yellow blink on no creds start ser
     LCD_show_lines(0,"",LCD,true);
+
     int last_bucket = -1;
     while (1) {
         esp_err_t e = esp_https_ota_perform(h);
@@ -449,7 +515,7 @@ static void perform_ota(const char *ota_url) {
         esp_restart();
     } else {
         publish_q1(TOPIC_OUT_OTA_UPDATE, "OTA version updated failed");
-        LCD_show_lines(0,"new version installed",LCD, true);
+        LCD_show_lines(0,"firmware OTA update failed",LCD, true);
         led_on(RED_LED,true);
     }
 }
@@ -462,6 +528,14 @@ static void perform_ota(const char *ota_url) {
  * @param download_path HTTPS URL of the new firmware binary.
  */
 void OTA_update(const char* download_path) {
+
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+    /*clear error*/
+    app_error_update(false, "");
+
     LCD_show_lines(0, "Starting OTA update", LCD, true);
     perform_ota(download_path);
 }
@@ -498,5 +572,31 @@ esp_err_t init_web_app(wfm_t* wifi_manager,
     nvs_memory_handler = nvs_memory;
 
     app_initialized = true;
+    app_error_update(false,NULL);
+
     return ESP_OK;
+}
+
+void app_error_update(bool error, char* description) {
+    if (!app_initialized) {
+        ESP_LOGE(TAG, "web application not initialized");
+        return;
+    }
+
+
+    app_error = error;
+
+    if (error) {
+        ESP_LOGE(TAG, "Web application error: %s", description);
+
+        if (!description) {
+            ESP_LOGE(TAG, "Web application error");
+        }
+
+        led_on(RED_LED, false);
+    }else {
+
+        led_off(RED_LED);
+    }
+
 }

@@ -256,7 +256,7 @@ void app_main(void)
                     goto initialize_failure;
                 }
                 LCD_show_lines(0, "MQTT connected!", LCD_context, true);
-                led_on(YELLOW_LED, false);
+
             }
             else {
                 LCD_show_lines(0, "MQTT connect failed!", LCD_context, true);

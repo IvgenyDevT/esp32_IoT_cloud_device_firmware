@@ -74,6 +74,7 @@ void on_wifi_status(const char *msg, wifi_status_t wifi_status) {
             break;
 
         case WIFI_CONNECTED:
+            led_off(GREEN_LED);
             led_on(GREEN_LED, false);
             break;
 

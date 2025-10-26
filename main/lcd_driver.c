@@ -295,10 +295,11 @@ void LCD_show_lines(unsigned short line_offset, const char *string, lcd_context_
     strcpy(string_cpy, string);
 
     /* Clear screen before displaying if required */
-if (clear_screen_before) {
+    if (clear_screen_before) {
     LCD_clear(LCD);
-    LCD_set_cursor(0, row, LCD);
 }
+
+    LCD_set_cursor(0, row, LCD);
 
     /* Word-by-word rendering */
     word = strtok(string_cpy, " ");

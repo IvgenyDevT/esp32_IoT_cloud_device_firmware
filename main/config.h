@@ -37,12 +37,12 @@
  * This string is published through MQTT and displayed on the LCD
  * during device connection testing.
  */
-#define PROG_VERSION "1.3.2"
+#define PROG_VERSION "6.0"
 
 /**
  * @brief Device identifier used in logs, MQTT messages, and UI.
  */
-#define DEV_NAME "ESP32-s2 Ivgeny-DevKit"
+#define DEV_NAME "ESP32-s2 Ivgeny-Devboard"
 
 /* -------------------------------------------------------------------------- */
 /*                              LCD Display Pins                              */

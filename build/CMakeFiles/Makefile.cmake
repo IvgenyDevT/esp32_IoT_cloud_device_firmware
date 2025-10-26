@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/.git/HEAD"
+  "/Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/.git/logs/refs/heads/main"
   "/Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/CMakeLists.txt"
   "CMakeFiles/4.1.1/CMakeASMCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCCompiler.cmake"
@@ -393,6 +395,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/4.1.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeASMCompiler.cmake"
+  "CMakeFiles/git-data/HEAD"
+  "CMakeFiles/git-data/grabRef.cmake"
+  "CMakeFiles/git-data/head-ref"
   "config.env"
   "bootloader-prefix/tmp/bootloader-mkdirs.cmake"
   "bootloader-prefix/src/bootloader-stamp/bootloader-source_dirinfo.txt"

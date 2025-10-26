@@ -285,7 +285,7 @@ void LED_indicator_task(void* param) {
     bool blink_times_limited = false;
 
     while (1) {
-        if (xQueueReceive(LEDs_queue, &new_LEDs_state,pdMS_TO_TICKS(30))) {
+        if (xQueueReceive(LEDs_queue, &new_LEDs_state,pdMS_TO_TICKS(100))) {
 
             /*update the state*/
             current_LEDs_state.blink_sec = new_LEDs_state.blink_sec;

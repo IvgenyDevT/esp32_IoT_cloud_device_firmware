@@ -44,9 +44,13 @@ This firmware turns a raw ESP32-S2 chip into a **complete cloud-controlled produ
 
 ### **board picture -**
 
-<img src="readme_images/prog_interface.png" alt="board-offline" width="350"/>
+<img src="readme_images/board-offline.png" alt="board-offline" width="350"/>
 <br><br>
 
+### **board picture online -**
+
+<img src="readme_images/dev_online.png" alt="board-offline" width="350"/>
+<br><br>
 ---
 
 ## 🚨 LED Runtime Indicators
@@ -78,15 +82,32 @@ Designed for full field-recovery without a PC or dashboard.
 ## 📶 Wi-Fi Provisioning Logic
 
 On boot:
-if (Stored Wi-Fi found)
-Auto-connect → MQTT
-else
+
+if (saved Wi-Fi found)
+Auto-connect -> MQTT
+
+else ->
 Start Access Point
 Host web provisioning UI (SPIFFS)
 Provisioning website allows:
 - SSID input
 - Password entry
 - Credentials saved permanently in NVS
+
+**to access Wi-Fi setup page :**
+- open Wi-Fi settings
+- connect to the Access-Point shared from the board
+- connect to the IP on any browser (can found in the Wi-Fi info)
+
+the follow windows should appear :
+
+<img src="readme_images/setup.png" alt="board_schem" width="250"/>
+<br><br>
+
+enter the Wi-Fi password and SSID and press the "connect" button.
+
+the device will restart and will connect to the provided Wi-Fi net.
+
 
 ---
 
@@ -196,6 +217,11 @@ Requirements
 Flash & Serial Monitor
 idf.py -p /dev/ttyUSB0 flash monitor
 Ctrl + ] to exit monitor.
+
+connecting through UART interface :
+
+<img src="readme_images/prog_interface.png" alt="board_schem" width="350"/>
+<br><br>
 
 ---
 

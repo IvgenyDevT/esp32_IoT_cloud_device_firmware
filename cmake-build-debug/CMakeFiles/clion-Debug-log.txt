@@ -11,7 +11,7 @@ Python being checked: /Users/jenyatokarzhevsky/.espressif/python_env/idf6.0_py3.
 -- Project sdkconfig file /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/sdkconfig
 Loading defaults file /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/sdkconfig.defaults...
 -- Compiler supported targets: xtensa-esp-elf
--- App "esp32_MQTT_project" version: a84be55-dirty
+-- App "esp32_MQTT_project" version: 1a3cf3f-dirty
 -- USING O3
 -- Adding linker script /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/cmake-build-debug/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script /Users/jenyatokarzhevsky/CLionProjects/esp32_MQTT_project/cmake-build-debug/esp-idf/esp_system/ld/sections.ld.in

@@ -113,17 +113,15 @@ Rollback safe.
 ---
 
 ## 🧱 Flash Partition Layout
-| Bootloader                            |
-
-| Partition Table                       |
-
+|partitions|
+|--|
+| Bootloader                           |
+| Partition Table                      |
 | Factory App / OTA Slot A              |
-
 | OTA Slot B (updates)                  |
-
 | SPIFFS (Web provisioning portal)      |
+| NVS (Persistent Wi-Fi credentials)   |
 
-| NVS (Persistent Wi-Fi credentials)    |
 ---
 
 ## 🧩 System Architecture
